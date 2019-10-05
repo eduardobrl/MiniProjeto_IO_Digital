@@ -1,15 +1,15 @@
-"F:\Projetos\Renesas\FEI\MiniProjeto1\Control\Source\CTRL_Leds.c"
+"F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Control\Source\CTRL_Leds.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1\Control\Source
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Control\Source
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1\Drivers\Headers
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Control\Headers
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1\Control\Headers
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Drivers\Headers
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project
 -I
 F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\rl78\lib
 -I
@@ -17,11 +17,11 @@ F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\rl78\inc
 -I
 F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\rl78\inc\c
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1\Drivers\Headers
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Control\Headers
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1\Control\Headers
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\Drivers\Headers
 -I
-F:\Projetos\Renesas\FEI\MiniProjeto1
+F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

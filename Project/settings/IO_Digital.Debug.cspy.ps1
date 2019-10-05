@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.general.xcl" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.driver.xcl" 
+& "F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.general.xcl" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.driver.xcl" 
 }
 else
 {
-& "F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.driver.xcl" 
+& "F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.driver.xcl" 
 }

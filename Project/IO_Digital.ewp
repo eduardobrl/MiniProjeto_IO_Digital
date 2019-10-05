@@ -98,7 +98,7 @@
                 </option>
                 <option>
                     <name>GenRTLibraryPath</name>
-                    <state>$TOOLKIT_DIR$\LIB\dlrl78nnf23n.a</state>
+                    <state>$TOOLKIT_DIR$\LIB\dlrl78nnf22n.a</state>
                 </option>
                 <option>
                     <name>GenLibInFormatterDescription</name>
@@ -374,9 +374,9 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>F:\Projetos\Renesas\FEI\MiniProjeto1\Drivers\Headers</state>
-                    <state>F:\Projetos\Renesas\FEI\MiniProjeto1\Control\Headers</state>
-                    <state>F:\Projetos\Renesas\FEI\MiniProjeto1</state>
+                    <state>$PROJ_DIR$\Control\Headers</state>
+                    <state>$PROJ_DIR$\Drivers\Headers</state>
+                    <state>$PROJ_DIR$</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

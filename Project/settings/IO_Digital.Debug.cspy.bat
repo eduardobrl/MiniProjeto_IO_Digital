@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.general.xcl" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.driver.xcl" 
+"F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.general.xcl" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto1\settings\IO_Digital.Debug.driver.xcl" 
+"F:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\Projetos\Renesas\FEI\MiniProjeto_IO_Digital\Project\settings\IO_Digital.Debug.driver.xcl" 
 
 @echo off 
 :end
