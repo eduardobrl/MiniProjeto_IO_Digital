@@ -608,15 +608,15 @@
                 <option>
                     <name>OOCOutputFormat</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCOutputOverride</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>templproj.srec</state>
+                    <state>IO_Digital.hex</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -624,7 +624,7 @@
                 </option>
                 <option>
                     <name>OOCObjCopyEnable</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
             </data>
         </settings>
@@ -737,7 +737,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>lnk0t.icf</state>
+                    <state>$TOOLKIT_DIR$\config\lnkr5f100le.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -829,7 +829,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state></state>
+                    <state>__iar_program_start</state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1990,14 +1990,20 @@
         </settings>
     </configuration>
     <group>
+        <name>Configuration</name>
+        <file>
+            <name>$PROJ_DIR$\Hardware.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Hooks.h</name>
+        </file>
+    </group>
+    <group>
         <name>Headers</name>
         <group>
             <name>Control</name>
             <file>
                 <name>$PROJ_DIR$\Control\Headers\CTRL_Button.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\Control\Headers\CTRL_Leds.h</name>
             </file>
         </group>
         <group>
@@ -2025,12 +2031,6 @@
             </file>
         </group>
     </group>
-    <file>
-        <name>$PROJ_DIR$\Hardware.h</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Hooks.h</name>
-    </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>

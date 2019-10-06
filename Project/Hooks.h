@@ -2,25 +2,23 @@
 #define __HOOKS_H__
 
 
+/*****************************************************************************
+                          DRV_LEDS
+*****************************************************************************/
 
-#include "CTRL_LEDS.h"
+#include "DRV_LEDS.h"
 
-#define HOOK_TURN_LED1_ON()             SET_PIN(LED1_OUT);\
-                                        CLR_PIN(LED2_OUT);\
-                                        CLR_PIN(LED3_OUT); \
-                                        SET_PIN(LED_PLACA);
+#define HOOK_TURN_LED1_ON()             Liga_Led(LED1)
 
-#define HOOK_TURN_LED2_ON()             CLR_PIN(LED1_OUT);\
-                                        SET_PIN(LED2_OUT);\
-                                        CLR_PIN(LED3_OUT);\
-                                        CLR_PIN(LED_PLACA);
+#define HOOK_TURN_LED2_ON()             Liga_Led(LED1)
 
-#define HOOK_TURN_LED3_ON()             CLR_PIN(LED1_OUT);\
-                                        CLR_PIN(LED2_OUT);\
-                                        SET_PIN(LED3_OUT)
+#define HOOK_TURN_LED3_ON()             Liga_Led(LED3)
 
-#define HOOK_TURN_ALL_LEDS_OFF()        CLR_PIN(LED1_OUT);\
-                                        CLR_PIN(LED2_OUT);\
-                                        CLR_PIN(LED3_OUT)
+#define HOOK_TURN_ALL_LEDS_OFF()        Desliga_Led(LED1); \
+                                        Desliga_Led(LED2); \
+                                        Desliga_Led(LED3) 
 
+/*****************************************************************************
+                          
+*****************************************************************************/
 #endif

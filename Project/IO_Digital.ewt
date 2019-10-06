@@ -2154,14 +2154,20 @@
         </settings>
     </configuration>
     <group>
+        <name>Configuration</name>
+        <file>
+            <name>$PROJ_DIR$\Hardware.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Hooks.h</name>
+        </file>
+    </group>
+    <group>
         <name>Headers</name>
         <group>
             <name>Control</name>
             <file>
                 <name>$PROJ_DIR$\Control\Headers\CTRL_Button.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\Control\Headers\CTRL_Leds.h</name>
             </file>
         </group>
         <group>
@@ -2189,12 +2195,6 @@
             </file>
         </group>
     </group>
-    <file>
-        <name>$PROJ_DIR$\Hardware.h</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Hooks.h</name>
-    </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>

@@ -18,18 +18,21 @@ typedef enum {
 
 
 void CTRL_Button_Init(){
-  PM5_bit.no4 = 1; // port P52 como entrada
-  PU5_bit.no3 = 1; // port P53 como entrada com pull-up interno
-  PM5_bit.no3 = 1; // port P52 como entrada
- 
-  PM7_bit.no0 = 0; // port P70 como saída
-  PM7_bit.no1 = 0; // port P71 como saída
-  PM7_bit.no2 = 0; // port P72 como saída
-  PM7_bit.no7 = 0; // porta P77 como saída
   
-  P7_bit.no0 = 0; // apaga LED vermelho
-  P7_bit.no1 = 0; // apaga LED amarelo
-  P7_bit.no2 = 0; // apaga LED verde
+  SW1_PU  = 1;
+  SW2_PU  = 1;
+  SW2_PM  = 1;
+
+ 
+  LED1_PM = 0; // port P70 como saída
+  LED2_PM = 0; // port P71 como saída
+  LED3_PM = 0; // port P72 como saída
+  LED_PLACA_PM = 0; // porta P77 como saída
+  
+  LED1_OUT = 0; // apaga LED vermelho
+  LED2_OUT = 0; // apaga LED amarelo
+  LED3_OUT = 0; // apaga LED verde
+  
   LED_PLACA = 0; // porta P77 como saída
 
 }

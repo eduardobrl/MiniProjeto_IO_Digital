@@ -189,7 +189,7 @@
         <SeqData24>0,0,0,0,0,0</SeqData24>
         <TraceSettings>128,0,0,0,0,0,8192</TraceSettings>
         <TimerSettings>0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</TimerSettings>
-        <Version>1,xxx.txt</Version>
+        <Version>1,trace.txt</Version>
         <LastDevFile>DR5F100LE.DVF</LastDevFile>
         <EmulType>64</EmulType>
         <BreakToggle>0</BreakToggle>
